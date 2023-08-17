@@ -49,5 +49,5 @@ let firstName1=prompt('Enter your name','Alexey');
 console.log(firstName1);
 let middleName1=prompt('Enter your middleName', 'Alexandrovich');
 console.log(middleName1);
-let age=prompt('Enter your age', 36);
+let age=Number (prompt('Enter your age', 36));
 console.log(age);
